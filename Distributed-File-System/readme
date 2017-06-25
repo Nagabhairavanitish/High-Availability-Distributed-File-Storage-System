@@ -1,0 +1,3 @@
+Distributed File System (DFS) is a set of client and server services that allow an organisation using Microsoft Windows servers to organise many distributed SMB file shares into a distributed file system. DFS provides location transparency (via the namespace component) and redundancy (via the file replication component) to improve data availability in the face of failure or heavy load by allowing shares in multiple different locations to be logically grouped under one folder, or DFS root.
+
+Early versions of DFS used Microsoft's File Replication Service (FRS) which provides basic file replication capability between servers. FRS identifies changed or new files, and copies the latest version of the entire file to all servers.
